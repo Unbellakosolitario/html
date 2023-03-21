@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Formularios</title>
+</head>
+
+<body>
+  <center>
+    
+    <h1>Formulario </h1> <hr>
+    
+    <form action="index.php" method="POST">
+      <table border="" width="100%">
+        <tr>
+        <td><label>Soy una etiqueta</label></td>
+        <td><label>Etiqueta</label></td>
+        </tr>
+        <tr>
+        <td><label>Campo de texto</label></td>
+        <td><input type="text" id="nombre"class="campo" placeholder="introduce nombre" required maxlength="5" name="nombre" value="Juan Peres"></input></td>
+        </tr>
+        <tr>
+        <td><label>Campo Password</label></td>
+        <td><input type="password" id="nombre"class="campo" placeholder="introduce password" required maxlength="5" name="nombre"></input></td>
+        </tr>
+        <tr>
+          <td><label>Radio</label></td>
+        <td><input type="radio" id="sexo"class="campo" placeholder="introduce nombre" required maxlength="5" name="nombre" value="juan Pérez">Masculino</input><br>
+          <input type="radio" id="sexo" class="campo" placeholder="introduce nombre" required maxlength="5" name="nombre" value="juan Pérez">femenino</input><br>
+         <input type="radio" id="sexo" class="campo" placeholder="introduce nombre" required maxlength="5" name="nombre" value="juan Pérez">Extraño</input></td><br>
+        </tr>
+        <td><label>Checkbox</label></td>
+         <td><input type="checkbox" checked>
+         </td>
+         </tr>
+         <tr>
+        <td><label>Campo oculto</label></td>
+        <td><input type="hidden" id="nombre"class="campo"value="10"></input></td>
+        </tr>
+        <tr>
+          <td><label>Submit</label></td>
+          <td><input type="submit" id="nombre" class="campo" name="nombre" value="Enviar"></input></td><br>
+        </tr>
+        <tr>
+          <td><label>imagen</label></td>
+          <td><input type="image" src="Fondo.jpg"></input></td>
+        </tr>
+        <tr>
+          <td><label>Boton Reset</label></td>
+          <td><input type="reset" value="Borrar"></input></td>
+        </tr>
+        <tr>
+          <td><label>Busqueda</label></td>
+          <td><input type="search" value="Buscar"></input></td>
+        </tr>
+        <tr>
+          <td><label>teléfono</label></td>
+          <td><input type="tel" value="teléfono"></input></td>
+        </tr>
+        <tr>
+          <td><label>URL</label></td>
+          <td><input type="url" value="url"></input></td>
+        </tr>
+        <tr>
+          <td><label>Email</label></td>
+          <td><input type="email" value="Email"></input></td>
+        </tr>
+        <tr>
+          <td><label>Número</label></td>
+          <td><input type="number" value="numer"></input></td>
+        </tr>
+        <tr>
+          <td><label>Rango</label></td>
+          <td><input type="range" value="rango"></input></td>
+        </tr>
+        <tr>
+          <td><label>Color</label></td>
+          <td><input type="color" value="yellouh"></input></td>
+        </tr>
+        <tr>
+          <td><label>Archivo</label></td>
+          <td><input type="file" value="archivo"></input></td>
+        </tr>
+        <tr>
+          <td><label>Fecha/hora</label></td>
+          <td><input type="datetime-local" value="fecha"></input></td>
+        </tr>
+        <tr>
+          <td><label>Fecha</label></td>
+          <td><input type="date" value="fecha"></input></td>
+        </tr>
+        <tr>
+          <td><label>Hora</label></td>
+          <td><input type="time" value="hora"></input></td>
+        </tr>
+        <tr>
+          <td><label>Week</label></td>
+          <td><input type="week" value="ª"></input></td>
+        </tr>
+        <tr>
+          <td><label>Mes</label></td>
+          <td><input type="month" value="mes"></input></td>
+        </tr>
+        <tr>
+          <td><label>boton</label></td>
+          <td><input type="button" value="boton"></input></td>
+        </tr>
+        <tr>
+          <td><label>texto area</label></td>
+          <td><textarea name="areas" id="01" cols="10" rows="10">hola</textarea></td>
+        </tr>
+        <tr>
+          <td><label>combo box</label></td>
+          <td>
+            <select name="nombre">
+              <option value="Rene">René</option>
+              <option value="Juan">Juan</option>
+              <option value="Pedro">Pedro</option>
+            </select>
+          </td>
+          </tr>
+          <tr>
+          <td><label>Data list</label></td>
+          <td><input type="text" list="ciudades">
+          <datalist id="ciudades">
+            <option value="Tecamac"></option>
+            <option value="Zumpango"></option>
+            <option value="Tizayuca"></option>
+            <option value="Ecatepec"></option>
+          </datalist>
+          </td></tr>
+          <tr>
+          <td><label>progress</label></td>
+          <td>
+            <progress value="50" max="100"></progress>
+          </td>
+          </tr>
+          <tr>
+          <td><label>metere</label></td>
+          <td>
+            <meter value="50" min="0" max="100" Tow="33" high="66" optimum="80"></meter>
+          </td>
+          </tr>
+          <tr>
+            <td><label>dialogo</label></td>
+            <td>
+              <dialog open>
+                <h1>Hola mundo </h1>
+                  
+              </dialog>
+            </td>
+          </tr>
+      </table>
+    </form>
+    
+  </center>
+
+</body>
+
+</html>
